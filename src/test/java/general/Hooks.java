@@ -11,6 +11,7 @@ public class Hooks extends Base{
 
     // Construtor para a classe Base
     public Hooks(Base base) {
+        super(base.driver);
         this.base = base;
     }
 
